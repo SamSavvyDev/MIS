@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="MIS, Midlands International School, Midlands International School Ohiya, Umuahia" />
+    <!-- BOOTSTRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Midlands International School | Welcome</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top" style="border-bottom: 2px solid orange;">
+        <div class="container">
+            <a href="#" class="navbar navbar-brand text-warning text-uppercase fw-bold">Midlands</a>
+
+            <button 
+                class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item">
+                        <a href="#showcase" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#teachers" class="nav-link">Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="showcase" class="d-flex justify-content-center align-items-center" style="background-image:linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ), url('../Utility/images/Midlands.webp'); height: 95vh; background-repeat: no-repeat; background-position: 0pz 50px; background-size: cover;">
+            <div class="container">
+                <h1 class="text-white">Welcome To Midlands International School, Ohiya Umuahia.</h1> 
+                <p class="text-white text-center">Great Things Has Small Beginning.</p>
+            </div>
+    </section>
+
+    <section id="adminletter" class="bg-dark text-white p-3">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Admission Into Any of Our Classes Is Ongoing</h3>
+                <button class="btn btn-warning px-5 d-sm-flex">Register</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-3">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Nursery Section
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus illo libero dignissimos sint tenetur vero!
+                            </p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Primary Section
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus illo libero dignissimos sint tenetur vero!
+                            </p>
+                            <a href="#" class="btn btn-dark">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Secondary Section
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus illo libero dignissimos sint tenetur vero!
+                            </p>
+                            <a href="#" class="btn btn-primary">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="p-4">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md">
+                    <img src="../Utility/images/Midlands_about.webp" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-4">
+                    <h5 class="text-warning fw-bold p-2">About Us</h5>
+                    <h2>About Midlands School</h2>
+                    <p class="text-center">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam porro eum dolorum, consequatur laudantium facilis in. Tempore libero pariatur iure aspernatur quaerat accusantium itaque, doloribus quod eveniet saepe. Quod, tempora? Nihil recusandae est voluptatibus quisquam id impedit quas saepe, tempora accusantium autem hic ea, in eligendi ullam vel inventore dolorum labore quo. Deserunt, pariatur. Soluta molestias veritatis culpa reprehenderit ut.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="teachers" class="bg-dark p-4">
+        <div class="container">
+            <h2 class="text-center text-warning">Meet Some of Our Teachers</h2>
+            <p class="lead text-white text-center mb-4">
+                Our Teachers all have 5+ years working experience in the school which includes the following amongst others.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Jhon Doe</h3>
+                            <p class="text-center text-dark">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur harum officia repellat quas dolores laborum, delectus laboriosam amet dolor facilis.
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">
+                                Annie Yu
+                            </h3>
+                            <p class="text-center text-dark">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis neque rem consequatur minus dignissimos quos corrupti sint facere perspiciatis!
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/10.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">James Ihedioha</h3>
+                            <p class="text-center text-dark">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, magnam ipsum possimus at minus ratione vel nisi similique libero nulla.
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/10.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Anita Ihedioha</h3>
+                            <p class="text-center text-dark">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, magnam ipsum possimus at minus ratione vel nisi similique libero nulla.
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/9.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Brad Ikenga</h3>
+                            <p class="text-center text-dark">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, magnam ipsum possimus at minus ratione vel nisi similique libero nulla.
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/9.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Chiamaka Lokpa</h3>
+                            <p class="text-center text-dark">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, magnam ipsum possimus at minus ratione vel nisi similique libero nulla.
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/7.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Emeka Anyaogu</h3>
+                            <p class="text-center text-dark">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, magnam ipsum possimus at minus ratione vel nisi similique libero nulla.
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/8.jpg" class="rounded-circle" alt="">
+                            <h3 class="card-title mb-3">Amaka Pearls</h3>
+                            <p class="text-center text-dark">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, magnam ipsum possimus at minus ratione vel nisi similique libero nulla.
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="faq" class="p-4 bg-dark">
+        <div class="container pb-3">
+            <h2 class="text-center mb-4 text-warning">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- ITEM ONE -->
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed active" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                    Where exactly are you located?
+                    </button>
+                </h2>
+                <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa praesentium unde blanditiis quae distinctio fugiat beatae ea labore deleniti iusto sapiente reprehenderit tenetur eos quasi a libero velit est harum nostrum fuga cum, architecto non? Molestiae quia, officiis assumenda excepturi error est itaque, ut voluptates aspernatur, deserunt commodi doloremque.</div>
+                </div>
+                </div>
+                <!-- ITEM TWO -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                        How much does it cost to attend?
+                    </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa praesentium unde blanditiis quae distinctio fugiat beatae ea labore deleniti iusto sapiente reprehenderit tenetur eos quasi a libero velit est harum nostrum fuga cum, architecto non? Molestiae quia, officiis assumenda excepturi error est itaque, ut voluptates aspernatur, deserunt commodi doloremque.</div>
+                    </div>
+                </div>
+                <!-- ITEM THREE -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                        What do I need to know?
+                    </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa praesentium unde blanditiis quae distinctio fugiat beatae ea labore deleniti iusto sapiente reprehenderit tenetur eos quasi a libero velit est harum nostrum fuga cum, architecto non? Molestiae quia, officiis assumenda excepturi error est itaque, ut voluptates aspernatur, deserunt commodi doloremque.</div>
+                    </div>
+                </div>
+                <!-- ITEM FOUR -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+                        How do I sign up?
+                    </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa praesentium unde blanditiis quae distinctio fugiat beatae ea labore deleniti iusto sapiente reprehenderit tenetur eos quasi a libero velit est harum nostrum fuga cum, architecto non? Molestiae quia, officiis assumenda excepturi error est itaque, ut voluptates aspernatur, deserunt commodi doloremque.</div>
+                    </div>
+                </div>
+                <!-- ITEM FIVE -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">
+                        Do you help me find a job?
+                    </button>
+                    </h2>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa praesentium unde blanditiis quae distinctio fugiat beatae ea labore deleniti iusto sapiente reprehenderit tenetur eos quasi a libero velit est harum nostrum fuga cum, architecto non? Molestiae quia, officiis assumenda excepturi error est itaque, ut voluptates aspernatur, deserunt commodi doloremque.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="p-4">
+        <div class="container">
+        <h3 class="text-center text-warning mt-3">Testimonials</h3>
+        <p class="text-center mb-4 lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis obcaecati nostrum ut omnis ex consequuntur!
+        </p>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="row">
+                                    <div class=" col-lg-12 col-sm-12 col-md-6">
+                                        <center><img class="rounded-circle" src="https://randomuser.me/api/portraits/men/6.jpg"  alt=""> 
+                                        <h3>Egbuna Tochukwu</h3></center>
+                                        <p class="text-center">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aperiam doloribus nisi! Labore eos corporis minima in voluptatum optio? Sint velit neque quidem placeat deleniti debitis qui accusamus optio eligendi facere, cum temporibus quia possimus fugiat, itaque natus delectus eius repellat voluptas molestias ipsum unde nisi adipisci in! Commodi, adipisci!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="row">
+                                    <div class=" col-lg-12 col-sm-12 col-md-6">
+                                        <center><img class="rounded-circle" src="https://randomuser.me/api/portraits/women/6.jpg"  alt=""> 
+                                            <h3 style="margin-bottom: -9px;">Ifeanyi Isaac</h3></center>
+                                            <p class="text-center">
+                                        <p class="text-center">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis consequatur beatae ipsa? Fuga natus blanditiis ut eaque. Ut, velit necessitatibus porro minus sed fugit adipisci natus molestiae numquam aliquid fugiat recusandae ex magni laborum odit unde provident esse pariatur qui eos ad dolorem nulla ratione? Quibusdam, consequuntur molestiae.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="carousel-item">-->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="row">
+                                        <div class=" col-lg-12 col-sm-12 col-md-6">
+                                        <center><img class="rounded-circle" src="https://randomuser.me/api/portraits/men/1.jpg"  alt=""> 
+                                        <h3>Favour Tochukwu</h3></center>
+                                        <p class="text-center">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aperiam doloribus nisi! Labore eos corporis minima in voluptatum optio? Sint velit neque quidem placeat deleniti debitis qui accusamus optio eligendi facere, cum temporibus quia possimus fugiat, itaque natus delectus eius repellat voluptas molestias ipsum unde nisi adipisci in! Commodi, adipisci!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="row">
+                                    <div class=" col-lg-12 col-sm-12 col-md-6">
+                                        <center><img class="rounded-circle" src="https://randomuser.me/api/portraits/men/12.jpg"  alt=""> 
+                                            <h3 style="margin-bottom: -9px;">Ifeanyi Isaac</h3></center>
+                                            <p class="text-center">
+                                        <p class="text-center">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis consequatur beatae ipsa? Fuga natus blanditiis ut eaque. Ut, velit necessitatibus porro minus sed fugit adipisci natus molestiae numquam aliquid fugiat recusandae ex magni laborum odit unde provident esse pariatur qui eos ad dolorem nulla ratione? Quibusdam, consequuntur molestiae.
+                                           </p>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="row">
+                                    <div class=" col-lg-12 col-sm-12 col-md-6">
+                                       <center><img class="rounded-circle" src="https://randomuser.me/api/portraits/men/1.jpg"  alt=""> 
+                                       <h3>Egbuna Tochukwu</h3></center>
+                                       <p class="text-center">
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aperiam doloribus nisi! Labore eos corporis minima in voluptatum optio? Sint velit neque quidem placeat deleniti debitis qui accusamus optio eligendi facere, cum temporibus quia possimus fugiat, itaque natus delectus eius repellat voluptas molestias ipsum unde nisi adipisci in! Commodi, adipisci!
+                                       </p>
+                                   </div>
+                               </div>
+                           </div>
+
+                           <div class="col-xs-6 col-sm-6 col-md-6">
+                               <div class="row">
+                                   <div class=" col-lg-12 col-sm-12 col-md-6">
+                                       <center><img class="rounded-circle" src="https://randomuser.me/api/portraits/women/1.jpg"  alt=""> 
+                                           <h3 style="margin-bottom: -9px;">Ifeanyi Isaac</h3></center>
+                                           <p class="text-center">
+                                       <p class="text-center">
+                                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis consequatur beatae ipsa? Fuga natus blanditiis ut eaque. Ut, velit necessitatibus porro minus sed fugit adipisci natus molestiae numquam aliquid fugiat recusandae ex magni laborum odit unde provident esse pariatur qui eos ad dolorem nulla ratione? Quibusdam, consequuntur molestiae.
+                                       </p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>  
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+    </div>
+</section>
+
+
+<section id="contacts" class="p-4 bg-secondary">
+    <div class="container">
+        <h2 class="text-center text-warning">Contact Us</h2>
+        <p class="lead text-center text-white">For any info or inquiries, please contact us we'd like to speak or chat with you </p>
+       <div class="contact">
+           <div class="contact-form">
+               <form action="">
+                   <div class="row">
+                       <div class="input50">
+                           <input type="text" placeholder="Your Full Name">
+                       </div>
+                       <div class="input50">
+                           <input type="email" placeholder="Your Email">
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="input50">
+                           <input type="phone" placeholder="Your Phone Number">
+                       </div>
+                       <div class="input50">
+                           <input type="address" placeholder="Your Address">
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="input100">
+                           <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="input100">
+                           <button type="button">Submit</button>
+                       </div>
+                   </div>
+               </form>
+           </div>
+           <div class="contact-info">
+               <div class="contact-box">
+                   <img src="../utility/images/address.png" class="contact-icon" alt="">
+                   <div class="details">
+                       <h3>Address</h3>
+                       <p>Egbeada Ohiya Umuahia South, Abia state.</p>
+                   </div>
+               </div>
+               <div class="contact-box">
+                    <img src="../utility/images/email.png" class="contact-icon" alt="">
+                    <div class="details">
+                        <h3>Email</h3>
+                        <a target="_blank" href="maito:samgreatc@gmail.com">Send an Email</a>
+                    </div>
+               </div>
+               <div class="contact-box">
+                   <img src="../utility/images/call.png" class="contact-icon" alt="">
+                   <div class="details">
+                       <h3>Phone</h3>
+                       <a href="tel:+2348039718600">+234803 971 8600</a><br>
+                       <a href="tel:+2348039718600">+234803 971 8600</a><br>
+                       <a href="tel:+2348039718600">+234803 971 8600</a>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-warning text-center">
+    <p>SamSavvyDev &copy; Midlands International School, Ohiya. <span class="designer"><a href="" target="_blank">SamSavvyDev</a> </span><a href="#"><i class="bi bi-arrow-up-circle h3"></i></a></p>
+    
+</footer>
+
+
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
